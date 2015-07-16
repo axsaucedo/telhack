@@ -1,0 +1,429 @@
+#welcome-page {
+  /* Progress Bar Section */
+  /* FAQ List */
+  /* Sponsors List */
+  /* Presented By Section */
+}
+
+#welcome-page #nav-bar {
+  background-color: rgba(36, 164, 199, 0.6);
+  bottom: 0;
+  height: 75px;
+  position: absolute;
+  width: 100%;
+  z-index: 50;
+}
+
+#welcome-page #nav-bar .logo {
+  color: white;
+  float: left;
+  font-size: 2rem;
+  font-weight: 400;
+  height: 75px;
+  letter-spacing: 5px;
+  line-height: 75px;
+}
+
+#welcome-page #nav-bar .logo span {
+  font-weight: 100;
+}
+
+#welcome-page #nav-bar .dots {
+  float: right;
+  height: 75px;
+}
+
+#welcome-page #nav-bar .dots .dot {
+  display: flex;
+  flex-direction: column;
+  float: left;
+  height: 40px;
+  margin: 10px 15px;
+  text-align: center;
+  width: 60px;
+}
+
+#welcome-page #nav-bar .dots .dot .circle {
+  background-color: white;
+  border-radius: 100%;
+  height: 25px;
+  margin: auto;
+  opacity: .8;
+  transition: height 0.5s, width 0.5s, opacity 0.5s;
+  width: 25px;
+}
+
+#welcome-page #nav-bar .dots .dot .title {
+  color: white;
+  height: 0;
+  letter-spacing: 2px;
+  margin-top: 2px;
+  text-transform: uppercase;
+  transition: opacity 0.5s;
+  opacity: .6;
+}
+
+#welcome-page #nav-bar .dots .dot .title span {
+  margin-left: -100%;
+  margin-right: -100%;
+  text-align: center;
+}
+
+#welcome-page #nav-bar .dots .dot.active .circle {
+  height: 40px;
+  opacity: 1;
+  width: 40px;
+}
+
+#welcome-page #nav-bar .dots .dot.active .title {
+  opacity: 1;
+}
+
+#welcome-page #nav-bar.affix {
+  position: fixed;
+  top: 0;
+}
+
+#welcome-page #splash {
+  height: 120vh;
+  height: calc(100vh + 80px);
+  min-height: 550px;
+  position: relative;
+  width: 100vw;
+}
+
+#welcome-page #splash #splash-content {
+  display: flex;
+  height: 83.3%;
+}
+
+#welcome-page #splash #splash-content .center-content {
+  margin: auto;
+}
+
+#welcome-page #splash #splash-content .center-content #main-logo {
+  display: block;
+  margin: 0 auto;
+  width: 17.2rem;
+}
+
+#welcome-page #splash #splash-content .center-content .info-box {
+  max-width: 900px;
+  padding: 25px;
+  text-align: center;
+  width: 80vw;
+}
+
+#welcome-page #splash #splash-content .center-content .info-box p {
+  color: white;
+  text-transform: uppercase;
+  margin-bottom: 2rem;
+  font-size: 1.6rem;
+  font-weight: 100;
+  letter-spacing: 6px;
+}
+
+#welcome-page #splash #splash-content .center-content .info-box p.info {
+  font-size: 1rem;
+  margin-top: 1.4rem;
+  margin-bottom: 1.4rem;
+}
+
+#welcome-page #splash #splash-content .center-content .info-box .social {
+  color: white;
+  font-size: 3rem;
+  margin-top: 3.5rem;
+  letter-spacing: 2rem;
+}
+
+#welcome-page #splash #splash-content .center-content .info-box .social a {
+  color: white;
+  text-decoration: none;
+}
+
+@media screen and (max-height: 700px) {
+  #welcome-page #splash #splash-content .center-content .info-box .social {
+    display: none;
+  }
+}
+
+#welcome-page #splash #splash-content .center-content .register-button {
+  height: 45px;
+  line-height: 45px;
+}
+
+#welcome-page #splash #splash-content .center-content .register-button:hover {
+  color: #eeeeee;
+  text-decoration: none;
+}
+
+#welcome-page #splash .background-layer {
+  background-position: center;
+  background-size: cover;
+  height: 120%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+#welcome-page #splash #background-layer-1 {
+  background-image: url(http://sdhacks.io/images/circuit.png);
+  opacity: 0.3;
+  z-index: -1;
+}
+
+#welcome-page #splash #background-layer-2 {
+  background-image: url(http://www.thestem.com/wp-content/uploads/2014/02/169475635.jpg);
+  opacity: 0.4;
+  z-index: -2;
+}
+
+#welcome-page #splash #background-layer-3 {
+  background: #00051a;
+  z-index: -3;
+}
+
+#welcome-page #innovation {
+  -moz-transform: scale(0.9999);
+  border-bottom: 75px solid transparent;
+  border-right: 100vw solid #005a8f;
+  border-top: 75px solid transparent;
+  box-sizing: content-box;
+  color: white;
+  margin-top: -80px;
+  padding: 0;
+  position: relative;
+  z-index: 5;
+}
+
+#welcome-page #innovation #innovation-content {
+  width: 100vw;
+}
+
+#welcome-page #innovation #innovation-content .section-title {
+  font-size: 2rem;
+  color: white;
+  font-weight: 100;
+  text-align: center;
+  margin-top: 2rem;
+  padding: 2.5rem;
+  letter-spacing: .125rem;
+  text-transform: uppercase;
+}
+
+#welcome-page #innovation #innovation-content .content {
+  margin: 0 auto;
+  font-size: 1.5rem;
+  font-weight: 100;
+  padding: 4rem 0 6rem;
+  letter-spacing: .04rem;
+}
+
+#welcome-page #overview {
+  -moz-transform: scale(0.9999);
+  border-bottom: 75px solid transparent;
+  border-left: 100vw solid #053A59;
+  border-top: 75px solid transparent;
+  box-sizing: content-box;
+  color: white;
+  margin-top: -80px;
+  padding: 0;
+  position: relative;
+  z-index: 5;
+}
+
+#welcome-page #overview #overview-content {
+  margin-left: -100vw;
+  width: 100vw;
+}
+
+#welcome-page #overview #overview-content .section-title {
+  font-size: 2rem;
+  color: white;
+  font-weight: 100;
+  text-align: center;
+  margin-top: 2rem;
+  padding: 1.5rem;
+  letter-spacing: .125rem;
+}
+
+#welcome-page #overview #overview-content .bar {
+  font-size: 2.5rem;
+  font-weight: 100;
+  height: 5.1rem;
+  line-height: 5.1rem;
+  margin: 4rem 0 4rem -15px;
+  overflow: hidden;
+  text-align: right;
+  transition: width 1s;
+  white-space: nowrap;
+  width: 80%;
+  letter-spacing: .04rem;
+  width: 0px;
+}
+
+#welcome-page #overview #overview-content .bar::after {
+  border-left: 50px solid transparent;
+  border-bottom: 82px solid #053A59;
+  content: "";
+  display: block;
+  float: right;
+  margin-left: 1.5rem;
+}
+
+#welcome-page #overview #overview-content .bar:nth-of-type(1).active {
+  background: #1777b0;
+  width: 95%;
+}
+
+#welcome-page #overview #overview-content .bar:nth-of-type(2).active {
+  background: #1c86c4;
+  width: 75%;
+}
+
+#welcome-page #overview #overview-content .bar:nth-of-type(3).active {
+  background: #2e9bdb;
+  width: 85%;
+}
+
+#welcome-page #overview #overview-content .bar:nth-of-type(4).active {
+  background: #51afe7;
+  width: 65%;
+}
+
+#welcome-page #faq {
+  background: #137bd4;
+  background-image: url(http://sdhacks.io/images/faq-bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  margin-top: -75px;
+  padding: 95px 0 110px 0;
+  width: 100vw;
+}
+
+#welcome-page #faq .question {
+  font-size: 1.45rem;
+  padding: 25px 0 25px 0;
+}
+
+#welcome-page #faq .question h4 {
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 1.15em;
+  font-weight: 100;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+#welcome-page #faq .question p {
+  font-family: 'Lato', sans-serif;
+  font-weight: 100;
+  letter-spacing: 2px;
+  padding-top: 5px;
+}
+
+#welcome-page #faq .question a {
+  color: white;
+  text-decoration: underline;
+}
+
+#welcome-page #sponsors {
+  -moz-transform: scale(0.9999);
+  border-bottom: 90px solid transparent;
+  border-right: 100vw solid #fff;
+  border-top: 90px solid transparent;
+  box-sizing: content-box;
+  color: white;
+  margin-top: -110px;
+  padding: 0;
+  position: relative;
+  z-index: 5;
+}
+
+#welcome-page #sponsors #sponsors-content {
+  width: 90vw;
+  margin-left: 5vw;
+  padding: 2.8rem;
+}
+
+#welcome-page #sponsors #sponsors-content .hidden-xs {
+  margin-bottom: 4rem;
+}
+
+#welcome-page #sponsors #sponsors-content .logo {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 7rem;
+  transition: -webkit-filter 0.1s;
+}
+
+#welcome-page #sponsors #sponsors-content .logo.title-sponsor {
+  height: 18.5rem;
+}
+
+#welcome-page #sponsors #sponsors-content .sponsor-button {
+  text-align: center;
+  color: #1390ec;
+  font-size: 3rem;
+  font-weight: 100;
+  margin: 25px;
+  height: 4rem;
+  line-height: 4rem;
+}
+
+#welcome-page #sponsors #sponsors-content .sponsor-button i {
+  font-size: 1.8rem;
+  transform: translate(0.5rem, -0.3rem);
+}
+
+#welcome-page #presented {
+  background: #ecf7f9;
+  margin-top: -90px;
+  padding-top: 90px;
+}
+
+#welcome-page #presented #presented-content {
+  padding: 55px 0 75px 0;
+}
+
+#welcome-page #presented #presented-content .section-title {
+  color: #3572a1;
+  font-size: 25px;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 45px;
+}
+
+#welcome-page #presented #presented-content .logo-container {
+  text-align: center;
+}
+
+#welcome-page #presented #presented-content .logo-container img {
+  height: 75px;
+}
+
+#welcome-page #footer {
+  background: #2d91ac;
+}
+
+#welcome-page #footer #footer-content .mini-logo {
+  height: 50px;
+  margin: 10px 0;
+  float: left;
+}
+
+#welcome-page #footer #footer-content div {
+  color: white;
+  font-size: .9rem;
+  font-weight: 100;
+  height: 70px;
+  letter-spacing: 1px;
+  line-height: 70px;
+  margin: 0 auto;
+  padding-right: 15px;
+  text-align: center;
+  width: 400px;
+}
