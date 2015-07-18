@@ -168,14 +168,14 @@
 }
 
 #welcome-page #splash #background-layer-1 {
-  background-image: url(http://sdhacks.io/images/circuit.png);
   opacity: 0.3;
   z-index: -1;
 }
 
 #welcome-page #splash #background-layer-2 {
-  background-image: url(http://www.thestem.com/wp-content/uploads/2014/02/169475635.jpg);
-  opacity: 0.4;
+  background-image: url(images/polygon.png);
+  background-position: 0 -100px;
+  opacity: 0.2;
   z-index: -2;
 }
 
