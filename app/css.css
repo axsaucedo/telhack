@@ -51,6 +51,8 @@
   opacity: .8;
   transition: height 0.5s, width 0.5s, opacity 0.5s;
   width: 25px;
+  font-size: 20px;
+  padding: 3px 3px 3px 3px;
 }
 
 #welcome-page #nav-bar .dots .dot .title {
@@ -426,4 +428,10 @@
   padding-right: 15px;
   text-align: center;
   width: 400px;
+}
+
+
+#faq .img-responsive {
+  max-height: 150px;
+  margin-top: 100px;
 }
