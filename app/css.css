@@ -174,7 +174,7 @@
 
 #welcome-page #splash #background-layer-2 {
   background-image: url(images/polygon.png);
-  background-position: 0 -100px;
+  background-position: 0 -10%;
   opacity: 0.2;
   z-index: -2;
 }
