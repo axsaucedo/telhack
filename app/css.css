@@ -480,14 +480,14 @@
   width: 400px;
 }
 
-
 #faq .img-responsive {
   max-height: 150px;
   margin-top: 100px;
 }
 
 .main-logo {
-  width: 60%;
+  width: 70%;
+  margin-bottom: 10px;
 }
 
 .typed-cursor{
