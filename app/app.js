@@ -67,6 +67,17 @@ $(function(){
         });
     }
 
+    $(function(){
+      $("#gadgets-title").typed({
+        strings: [" to revolutionize health education.", 
+                  " to innovate with unique solutions.",
+                  " to build unique solutions never seen before."],
+        typeSpeed: 2,
+        backDelay: 2000,
+        loop: true
+      });
+  });
+
 });
 
 
