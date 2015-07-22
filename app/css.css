@@ -5,6 +5,10 @@
   /* Presented By Section */
 }
 
+.hidden {
+  display: none;
+}
+
 #welcome-page #nav-bar {
   background-color: rgba(36, 164, 199, 0.6);
   bottom: 0;
@@ -14,9 +18,15 @@
   z-index: 50;
 }
 
+.hee-logo-main {
+  position: fixed !important; 
+  top: 10px; 
+  right: 10px;
+}
+
 #welcome-page #nav-bar .logo {
   color: white;
-  float: left;
+  float: right;
   font-size: 2rem;
   font-weight: 400;
   height: 75px;
@@ -29,7 +39,7 @@
 }
 
 #welcome-page #nav-bar .dots {
-  float: right;
+  float: left;
   height: 75px;
 }
 

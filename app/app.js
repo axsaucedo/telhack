@@ -65,6 +65,14 @@ $(function(){
                 top: $('#innovation').offset().top - $('#nav-bar').height()
             }
         });
+        $('#nav-bar').on( 'affix.bs.affix', function () {
+            console.log($(".logo").removeClass("hidden"));
+            console.log($(".hee-logo-main").addClass("hidden"));
+        });
+        $('#nav-bar').on( 'affixed-top.bs.affix', function () {
+            console.log($(".logo").addClass("hidden"));
+            console.log($(".hee-logo-main").removeClass("hidden"));
+        });
     }
 
     $(function(){
@@ -77,7 +85,6 @@ $(function(){
         loop: true
       });
   });
-
 });
 
 
