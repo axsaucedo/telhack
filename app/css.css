@@ -460,6 +460,10 @@
   height: 75px;
 }
 
+#welcome-page #presented #presented-content .logo-container a {
+  margin-top: 20px;
+}
+
 #welcome-page #footer {
   background: #2d91ac;
 }
