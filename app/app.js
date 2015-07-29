@@ -66,12 +66,12 @@ $(function(){
             }
         });
         $('#nav-bar').on( 'affix.bs.affix', function () {
-            console.log($(".logo").removeClass("hidden"));
             console.log($(".hee-logo-main").addClass("hidden"));
+            console.log($(".logo").removeClass("hidden"));
         });
         $('#nav-bar').on( 'affixed-top.bs.affix', function () {
-            console.log($(".logo").addClass("hidden"));
             console.log($(".hee-logo-main").removeClass("hidden"));
+            console.log($(".logo").addClass("hidden"));
         });
     }
 
