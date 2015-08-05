@@ -1,3 +1,8 @@
+body, html {
+  overflow-x: hidden;
+  width: 99%;
+}
+
 #welcome-page {
   /* Progress Bar Section */
   /* FAQ List */
