@@ -14,12 +14,21 @@ body, html {
 }
 
 #welcome-page #nav-bar {
-  background-color: rgba(36, 164, 199, 0.6);
+  background-color: #4098CE;
   bottom: 0;
   height: 75px;
   position: absolute;
   width: 100%;
   z-index: 50;
+}
+
+.vertical-navbar-connect {
+  width: 100vw; 
+  height: 100px; 
+  z-index:0; 
+  background-color: #4098CE; 
+  position: absolute; 
+  bottom:-100px;
 }
 
 .hee-logo-main {
@@ -64,7 +73,7 @@ body, html {
 
 #welcome-page #nav-bar .dots .dot .circle {
   background-color: white;
-  border-radius: 100%;
+  border-radius: 25%;
   height: 25px;
   margin: auto;
   opacity: .8;
@@ -167,7 +176,7 @@ body, html {
 }
 @media screen and (max-width: 1265px) {
   .hee-logo-main {
-    background-color: rgba(36, 164, 199, 0.6);;
+    background-color: #4098CE;
   }
 }
 
@@ -247,7 +256,7 @@ body, html {
 #welcome-page #gadgets {
   -moz-transform: scale(0.9999);
   border-bottom: 75px solid transparent;
-  border-right: 100vw solid #005a8f;
+  border-right: 100vw solid #4098CE;
   border-top: 75px solid transparent;
   box-sizing: content-box;
   color: white;
@@ -294,7 +303,7 @@ body, html {
 #welcome-page #overview {
   -moz-transform: scale(0.9999);
   border-bottom: 75px solid transparent;
-  border-left: 100vw solid #053A59;
+  border-left: 100vw solid #4098CE;
   border-top: 75px solid transparent;
   box-sizing: content-box;
   color: white;
@@ -336,7 +345,7 @@ body, html {
 
 #welcome-page #overview #overview-content .bar::after {
   border-left: 50px solid transparent;
-  border-bottom: 82px solid #053A59;
+  border-bottom: 82px solid #4098CE;
   content: "";
   display: block;
   float: right;
@@ -364,8 +373,7 @@ body, html {
 }
 
 #welcome-page #faq {
-  background: #137bd4;
-  background-image: url(http://sdhacks.io/images/faq-bg.png);
+  background: #005a8f;
   background-size: cover;
   background-repeat: no-repeat;
   color: white;
