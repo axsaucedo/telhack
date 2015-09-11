@@ -201,14 +201,12 @@ body, html {
 }
 
 #welcome-page #splash #background-layer-1 {
-  opacity: 0.3;
   z-index: -1;
 }
 
 #welcome-page #splash #background-layer-2 {
   background-image: url(images/polygon.png);
   background-position: 0 -10%;
-  opacity: 0.2;
   z-index: -2;
 }
 
