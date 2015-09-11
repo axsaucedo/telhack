@@ -222,6 +222,7 @@ body, html {
   border-top: 75px solid transparent;
   box-sizing: content-box;
   color: white;
+  background-color: #005a8f;
   margin-top: -80px;
   padding: 0;
   position: relative;
