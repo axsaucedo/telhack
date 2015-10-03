@@ -371,6 +371,16 @@ body, html {
   width: 65%;
 }
 
+#welcome-page #apply {
+  background: #005a8f;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  margin-top: -75px;
+  padding: 95px 0 110px 0;
+  width: 100vw;
+}
+
 #welcome-page #faq {
   background: #005a8f;
   background-size: cover;
@@ -516,6 +526,43 @@ body, html {
 .main-logo {
   width: 70%;
   margin-bottom: 10px;
+}
+
+.btn-apply {
+  color: #005a8f;
+  font-size: 30px;
+  text-align: center;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.btn-apply-container {
+  position:relative;
+  border-radius: 0px;
+  background-color: white;
+  width: 200px !important;
+  height: 100%;
+  text-align: center;
+}
+
+.btn-apply-container:after {
+  position:absolute;
+  right:-74px;
+  content:"";
+  border-top:37px solid transparent;  
+  border-right:36px solid transparent;
+  border-bottom:38px solid white; /* change as required */
+  border-left:38px solid white; /* change as required */
+}
+
+.btn-apply-container:before {
+  position:absolute;
+  content:"";
+  left:-75px;
+  border-top:38px solid white; /* change as required */
+  border-right:38px solid white; /* change as required */
+  border-bottom:37px solid transparent;
+  border-left:37px solid transparent;
 }
 
 .typed-cursor{
