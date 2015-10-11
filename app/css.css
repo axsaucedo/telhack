@@ -586,3 +586,59 @@ body, html {
     50% { opacity:0; }
     100% { opacity:1; }
 }
+
+
+
+section[name="prizes"] {
+
+  -moz-transform: scale(0.9999);
+  border-bottom: 90px solid transparent;
+  border-top: 90px solid transparent;
+  box-sizing: content-box;
+  color: black;
+}
+
+section[name="prizes"] h1 {
+  text-align: center;
+}
+
+section[name="prizes"] h4 {
+  padding: 30px 0;
+  font-weight: 500;
+  text-transform: uppercase;
+  font-size: 20px;
+  color: #454545;
+  font-size: 14px;
+}
+
+section[name="prizes"] img {
+  background-color: #383838;
+  border-radius: 50%;
+  border: 1px solid #383838;
+}
+
+section[name="prizes"] .gadget {
+  padding-bottom: 25px;
+}
+
+section[name="prizes"] .main img {
+  width: 150px;
+  height: 150px;
+}
+
+section[name="prizes"] .gadget img {
+  width: 135px;
+  height: 135px;
+}
+
+section[name="prizes"] p.name {
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+section[name="prizes"] p.desc {
+  font-weight: 300;
+  font-size: 13px;
+  max-width: 220px;
+  opacity: 0.8;
+}
