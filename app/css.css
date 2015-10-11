@@ -595,7 +595,7 @@ section[name="prizes"] {
   border-bottom: 90px solid transparent;
   border-top: 90px solid transparent;
   box-sizing: content-box;
-  color: black;
+  color: black  ;
 }
 
 section[name="prizes"] h1 {
@@ -641,4 +641,53 @@ section[name="prizes"] p.desc {
   font-size: 13px;
   max-width: 220px;
   opacity: 0.8;
+}
+
+
+section[name="organisers"] {
+  text-align: center;
+}
+
+section[name="organisers"] img {
+  margin-top: 30px;
+  margin-bottom: 10px;
+  border-radius: 50%;
+  height: 140px;
+  width: 140px;
+}
+
+section[name="organisers"] .co img {
+  border-radius: 50%;
+}
+
+section[name="organisers"] p.name {
+  font-weight: 600;
+}
+
+section[name="organisers"] p.position {
+  font-weight: 300;
+  font-size: 12px;
+  max-width: 220px;
+  opacity: 0.8;
+}
+
+section[name="organisers"] p.social i {
+  font-size: 20px;
+  padding: 0 5px;
+}
+
+section[name="organisers"] p.social a {
+  color: #ffffff;
+  opacity: 0.7;
+}
+
+section[name="organisers"] p.social a:hover {
+  opacity: 1;
+}
+
+section[name="organisers"] .elearning p {
+  padding: 15px 0 15px 0;
+  font-weight: 100;
+  opacity: 0.8;
+  text-align: center;
 }
