@@ -16,7 +16,7 @@ $(function(){
             activateAllAnimations();
         }else{
             watchAnimations();
-            watchSections();
+            // watchSections();
             watchNavBar();
         }
 
@@ -46,7 +46,7 @@ $(function(){
     }
 
     //Watch Section for nav bar
-    var sectionSelectors = ['#splash', '#innovation', '#overview', '#faq', '#sponsors', '#presented'];
+    var sectionSelectors = ['#splash', '#innovation', '#prizes', '#faq', '#gadgets', '#organisers'];
     function watchSections(){
         for(var s in sectionSelectors){
             var element = $(sectionSelectors[s]);
