@@ -691,3 +691,40 @@ section[name="organisers"] .elearning p {
   opacity: 0.8;
   text-align: center;
 }
+
+
+#welcome-page #venue {
+  background: #005a8f;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  text-align: center;
+  margin-top: -75px;
+  padding: 95px 0 110px 0;
+  width: 100vw;
+}
+
+#welcome-page #venue .question {
+  font-size: 1.45rem;
+  padding: 25px 0 25px 0;
+}
+
+#welcome-page #venue .question h4 {
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 1.15em;
+  font-weight: 100;
+  letter-spacing: 3px;
+}
+
+#welcome-page #venue .question p {
+  font-family: 'Lato', sans-serif;
+  font-weight: 100;
+  letter-spacing: 2px;
+  padding-top: 5px;
+}
+
+#welcome-page #venue .question a {
+  color: white;
+  text-decoration: underline;
+}
+
