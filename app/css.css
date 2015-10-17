@@ -728,3 +728,112 @@ section[name="organisers"] .elearning p {
   text-decoration: underline;
 }
 
+
+
+
+section[name="schedule"] {
+  padding-bottom: 0;
+}
+
+section[name="schedule"] .row {
+  max-width: 100%;
+}
+
+section[name="schedule"] .columns {
+  margin: 0;
+  padding: 0;
+}
+
+section[name="schedule"] .tabs {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+section[name="schedule"] .tabs .tab-title {
+  width: 33.33%;
+  font-size: 13px;
+}
+
+section[name="schedule"] .tabs .tab-title a {
+  padding: 3px 0;
+  text-align: center;
+  background-color: #0d5f92;
+  color: #ffffff;
+}
+
+section[name="schedule"] .tabs .tab-title.active a {
+  background-color: #1884c6;
+  border: 0;
+  outline: 0;
+}
+
+section[name="schedule"] .tabs-content {
+  padding: 30px 50px;
+  transition: 0.5s;
+}
+
+section[name="schedule"] .tabs-content .row {
+  max-width: 1100px;
+  margin: auto;
+}
+
+section[name="schedule"] .tabs-content p {
+  color: #626262;
+  letter-spacing: 1px;
+}
+
+section[name="schedule"] .tabs-content .time {
+  border-top: 4px solid #1884c6;
+  padding: 15px 0;
+  font-weight: 400;
+  font-size: 13px;
+}
+
+section[name="schedule"] .tabs-content .title {
+  border-top: 1px solid #000000;
+  padding: 15px 10px 0 10px;
+  text-transform: uppercase;
+  font-size: 13px;
+}
+
+section[name="schedule"] .tabs-content .subtitle {
+  font-size: 13px;
+  padding: 0 10px 15px 10px;
+}
+
+section[name="schedule"] .tabs-content .subtitle strong {
+  font-weight: 600;
+}
+
+section[name="schedule"] .tabs-content .click {
+  cursor: pointer;
+}
+
+section[name="schedule"] .tabs-content .selected .title, section[name="schedule"] .tabs-content .selected .subtitle {
+  color: #1884c6;
+}
+
+section[name="schedule"] .tabs-content .selected .title {
+  border-top: 1px solid #1884c6;
+}
+
+section[name="schedule"] .tabs-content .details p {
+  color: #7f7f7f;
+  font-size: 12px;
+}
+
+section[name="schedule"] .tabs-content .venue {
+  padding: 15px 0 0 0;
+}
+
+section[name="schedule"] .tabs-content .cont {
+  padding: 15px 10px;
+  border-top: dashed 1px #7f7f7f;
+}
+
+section[name="schedule"] h3 {
+  color: #1884c6;
+}
+
+
