@@ -77,7 +77,7 @@ $(function(){
 
     $(function(){
       $("#gadgets-title").typed({
-        strings: [" to revolutionise health education.", 
+        strings: [" to revolutionise healthcare education.", 
                   " to innovate with unique solutions.",
                   " to build unique solutions never seen before."],
         typeSpeed: 2,

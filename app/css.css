@@ -315,6 +315,7 @@ body, html {
 #welcome-page #overview #overview-content {
   margin-left: -100vw;
   width: 100vw;
+  text-align: center;
 }
 
 #welcome-page #overview #overview-content .section-title {
