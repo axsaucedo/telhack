@@ -337,25 +337,25 @@ function findBootstrapEnvironment() {
     };
 }
 
-//Smooth scroll to any link
-//Sauce: https://css-tricks.com/snippets/jquery/smooth-scrolling/
-//TODO: Implement offset and timer through data- attributes
-$(function(){
-    $('a[href*=#]:not([href=#])').on('click', function() {
-        var offset = parseInt($(this).data('offset')) || 0;
-        console.log(offset);
-        if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
-            var target = $(this.hash);
-            target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-            if (target.length) {
-                $('html,body').animate({
-                    scrollTop: target.offset().top + offset
-                }, 1000);
-                return false;
-            }
-        }
-    });
-});
+// //Smooth scroll to any link
+// //Sauce: https://css-tricks.com/snippets/jquery/smooth-scrolling/
+// //TODO: Implement offset and timer through data- attributes
+// $(function(){
+//     $('a[href*=#]:not([href=#])').on('click', function() {
+//         var offset = parseInt($(this).data('offset')) || 0;
+//         console.log(offset);
+//         if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+//             var target = $(this.hash);
+//             target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+//             if (target.length) {
+//                 $('html,body').animate({
+//                     scrollTop: target.offset().top + offset
+//                 }, 1000);
+//                 return false;
+//             }
+//         }
+//     });
+// });
 
 function scrollToElement(el, offset, delay){
     offset = offset || 0;
